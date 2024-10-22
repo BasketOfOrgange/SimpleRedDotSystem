@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9bee8d99b4ce5a438cc2c54c4235e8a, type: 3}
+  m_Name: RedDotDataBase
+  m_EditorClassIdentifier: 
+  trees:
+  - tempStr: 1
+    childs:
+    - tempStr: 11
+      childs:
+      - tempStr: 12001
+        childs:
+        - tempStr: 111
+          childs: []
+          Id: 111
+          type: 0
+          TerminalTrigger: 9001
+        - tempStr: 112
+          childs: []
+          Id: 112
+          type: 0
+          TerminalTrigger: 9002
+        Id: 12001
+        type: 0
+        TerminalTrigger: 0
+      Id: 11
+      type: 0
+      TerminalTrigger: 0
+    - tempStr: 12
+      childs:
+      - tempStr: 121
+        childs: []
+        Id: 121
+        type: 0
+        TerminalTrigger: 9003
+      Id: 12
+      type: 0
+      TerminalTrigger: 0
+    Id: 1
+    type: 0
+    TerminalTrigger: 0
+  - tempStr: 2
+    childs: []
+    Id: 2
+    type: 0
+    TerminalTrigger: 0
